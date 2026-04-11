@@ -1,0 +1,1006 @@
+[2026-03-25 16:25:59] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:25:59] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:26:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:26:39] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:26:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:26:39] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:27:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:27:39] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:27:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:27:39] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:28:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:28:39] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:28:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:28:39] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:29:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:29:39] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:29:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:29:39] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:29:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:29:39] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:30:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:30:39] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:30:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:30:39] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:31:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:31:39] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:31:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:31:39] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:32:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:32:39] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:32:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:32:39] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:33:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:33:39] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:33:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:33:39] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:34:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:34:57] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:34:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:34:57] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:34:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:34:57] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:34:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:34:57] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:34:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:34:57] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:34:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:34:57] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:34:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:34:57] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:34:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:34:57] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:34:58] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:34:58] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:35:18] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:35:18] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:35:20] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:35:20] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:35:22] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:35:22] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:35:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:35:57] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:35:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:35:57] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:36:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:36:57] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:36:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:36:57] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:37:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:37:57] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-25 16:37:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-25 16:37:57] laravel.ERROR: Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') {"exception":"[object] (Error(code: 0): Failed opening required '/var/www/html/paymoney-laravel/config/api-docs-endpoints.php' (include_path='.:/usr/share/php') at /var/www/html/paymoney-laravel/config/api-docs.php:46)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2026-03-27 17:25:44] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-27 17:25:44] laravel.ERROR: Illuminate\Routing\UrlGenerator::__construct(): Argument #2 ($request) must be of type Illuminate\Http\Request, null given, called in /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/RoutingServiceProvider.php on line 64 {"exception":"[object] (TypeError(code: 0): Illuminate\\Routing\\UrlGenerator::__construct(): Argument #2 ($request) must be of type Illuminate\\Http\\Request, null given, called in /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/RoutingServiceProvider.php on line 64 at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:128)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/RoutingServiceProvider.php(64): Illuminate\\Routing\\UrlGenerator->__construct()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\\Routing\\RoutingServiceProvider->{closure:Illuminate\\Routing\\RoutingServiceProvider::registerUrlGenerator():56}()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\\Container\\Container->build()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(963): Illuminate\\Container\\Container->resolve()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\\Foundation\\Application->resolve()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(948): Illuminate\\Container\\Container->make()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\\Foundation\\Application->make()
+#7 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(977): app()
+#8 /var/www/html/paymoney-laravel/config/api-docs.php(33): url()
+#9 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require('...')
+#10 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#11 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#12 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#13 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#14 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#15 {main}
+"} 
+[2026-03-27 17:25:51] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2026-03-27 17:25:51] laravel.ERROR: Illuminate\Routing\UrlGenerator::__construct(): Argument #2 ($request) must be of type Illuminate\Http\Request, null given, called in /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/RoutingServiceProvider.php on line 64 {"exception":"[object] (TypeError(code: 0): Illuminate\\Routing\\UrlGenerator::__construct(): Argument #2 ($request) must be of type Illuminate\\Http\\Request, null given, called in /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/RoutingServiceProvider.php on line 64 at /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:128)
+[stacktrace]
+#0 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Routing/RoutingServiceProvider.php(64): Illuminate\\Routing\\UrlGenerator->__construct()
+#1 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\\Routing\\RoutingServiceProvider->{closure:Illuminate\\Routing\\RoutingServiceProvider::registerUrlGenerator():56}()
+#2 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\\Container\\Container->build()
+#3 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(963): Illuminate\\Container\\Container->resolve()
+#4 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\\Foundation\\Application->resolve()
+#5 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(948): Illuminate\\Container\\Container->make()
+#6 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\\Foundation\\Application->make()
+#7 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(977): app()
+#8 /var/www/html/paymoney-laravel/config/api-docs.php(33): url()
+#9 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(70): require('...')
+#10 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#11 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(263): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#12 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#13 /var/www/html/paymoney-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#14 /var/www/html/paymoney-laravel/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#15 {main}
+"} 
+[2026-04-09 13:30:46] local.ERROR: SQLSTATE[HY000] [1045] Access denied for user 'forge'@'localhost' (using password: NO) (Connection: mysql, SQL: select * from `gateways` where `id` = 2 and `status` = 1 limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 1045): SQLSTATE[HY000] [1045] Access denied for user 'forge'@'localhost' (using password: NO) (Connection: mysql, SQL: select * from `gateways` where `id` = 2 and `status` = 1 limit 1) at D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
+[stacktrace]
+#0 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(414): Illuminate\\Database\\Connection->run('select * from `...', Array, Object(Closure))
+#2 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2913): Illuminate\\Database\\Connection->select('select * from `...', Array, true)
+#3 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2902): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3456): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#5 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2901): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#6 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(739): Illuminate\\Database\\Query\\Builder->get(Array)
+#7 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(723): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#8 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Concerns\\BuildsQueries.php(333): Illuminate\\Database\\Eloquent\\Builder->get(Array)
+#9 D:\\Xampp\\htdocs\\saif_07_apr_2026\\app\\Http\\Controllers\\User\\DepositController.php(55): Illuminate\\Database\\Eloquent\\Builder->first()
+#10 D:\\Xampp\\htdocs\\saif_07_apr_2026\\app\\Http\\Controllers\\User\\DepositController.php(46): App\\Http\\Controllers\\User\\DepositController->checkAmountValidate('12', 'GBP', '2', NULL)
+#11 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\User\\DepositController->checkAmount(Object(Illuminate\\Http\\Request))
+#12 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('checkAmount', Array)
+#13 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\User\\DepositController), 'checkAmount')
+#14 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#15 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(806): Illuminate\\Routing\\Route->run()
+#16 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#17 D:\\Xampp\\htdocs\\saif_07_apr_2026\\app\\Http\\Middleware\\MaintenanceMode.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\MaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\strilluminate\\default\\src\\Activereq\\Activeck\\M.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): StrIlluminate\\StrIlluminate\\Activereq\\Activeck\\M->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 D:\\Xampp\\htdocs\\saif_07_apr_2026\\app\\Http\\Middleware\\Language.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\Language->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 D:\\Xampp\\htdocs\\saif_07_apr_2026\\app\\Http\\Middleware\\ActivityByUser.php(34): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\ActivityByUser->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 D:\\Xampp\\htdocs\\saif_07_apr_2026\\app\\Http\\Middleware\\CheckRememberToken.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\CheckRememberToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 D:\\Xampp\\htdocs\\saif_07_apr_2026\\app\\Http\\Middleware\\ValidateRequestData.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\ValidateRequestData->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#37 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#44 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#45 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#46 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#47 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#48 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#49 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#57 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#58 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#62 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#63 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#64 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#65 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#66 D:\\Xampp\\htdocs\\saif_07_apr_2026\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#67 {main}
+
+[previous exception] [object] (PDOException(code: 1045): SQLSTATE[HY000] [1045] Access denied for user 'forge'@'localhost' (using password: NO) at D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php:65)
+[stacktrace]
+#0 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php(65): PDO->__construct('mysql:host=127....', 'forge', Object(SensitiveParameterValue), Array)
+#1 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php(44): Illuminate\\Database\\Connectors\\Connector->createPdoConnection('mysql:host=127....', 'forge', '', Array)
+#2 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#5 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(1339): call_user_func(Object(Closure))
+#6 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(1375): Illuminate\\Database\\Connection->getPdo()
+#7 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(528): Illuminate\\Database\\Connection->getReadPdo()
+#8 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(423): Illuminate\\Database\\Connection->getPdoForSelect(true)
+#9 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(816): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select * from `...', Array)
+#10 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#11 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(414): Illuminate\\Database\\Connection->run('select * from `...', Array, Object(Closure))
+#12 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2913): Illuminate\\Database\\Connection->select('select * from `...', Array, true)
+#13 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2902): Illuminate\\Database\\Query\\Builder->runSelect()
+#14 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3456): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#15 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2901): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#16 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(739): Illuminate\\Database\\Query\\Builder->get(Array)
+#17 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(723): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#18 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Concerns\\BuildsQueries.php(333): Illuminate\\Database\\Eloquent\\Builder->get(Array)
+#19 D:\\Xampp\\htdocs\\saif_07_apr_2026\\app\\Http\\Controllers\\User\\DepositController.php(55): Illuminate\\Database\\Eloquent\\Builder->first()
+#20 D:\\Xampp\\htdocs\\saif_07_apr_2026\\app\\Http\\Controllers\\User\\DepositController.php(46): App\\Http\\Controllers\\User\\DepositController->checkAmountValidate('12', 'GBP', '2', NULL)
+#21 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\User\\DepositController->checkAmount(Object(Illuminate\\Http\\Request))
+#22 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('checkAmount', Array)
+#23 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\User\\DepositController), 'checkAmount')
+#24 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#25 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(806): Illuminate\\Routing\\Route->run()
+#26 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 D:\\Xampp\\htdocs\\saif_07_apr_2026\\app\\Http\\Middleware\\MaintenanceMode.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\MaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\strilluminate\\default\\src\\Activereq\\Activeck\\M.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): StrIlluminate\\StrIlluminate\\Activereq\\Activeck\\M->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 D:\\Xampp\\htdocs\\saif_07_apr_2026\\app\\Http\\Middleware\\Language.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\Language->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 D:\\Xampp\\htdocs\\saif_07_apr_2026\\app\\Http\\Middleware\\ActivityByUser.php(34): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\ActivityByUser->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 D:\\Xampp\\htdocs\\saif_07_apr_2026\\app\\Http\\Middleware\\CheckRememberToken.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\CheckRememberToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 D:\\Xampp\\htdocs\\saif_07_apr_2026\\app\\Http\\Middleware\\ValidateRequestData.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\ValidateRequestData->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#47 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#55 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#56 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#57 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#58 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#59 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#63 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#64 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#68 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#69 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#70 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#71 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#72 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#73 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#74 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#75 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#76 D:\\Xampp\\htdocs\\saif_07_apr_2026\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#77 {main}
+"} 

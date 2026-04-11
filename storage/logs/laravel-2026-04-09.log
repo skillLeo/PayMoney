@@ -1,0 +1,143 @@
+[2026-04-09 13:15:06] local.ERROR: Writing to C:/Users/Abdullah Laptops/AppData/Roaming/PsySH/psysh_history is not allowed. {"exception":"[object] (ErrorException(code: 0): Writing to C:/Users/Abdullah Laptops/AppData/Roaming/PsySH/psysh_history is not allowed. at D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\psy\\psysh\\src\\ConfigPaths.php:355)
+[stacktrace]
+#0 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(1024, 'Writing to C:/U...', 'D:\\\\Xampp\\\\htdocs...', 355)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(1024, 'Writing to C:/U...', 'D:\\\\Xampp\\\\htdocs...', 355)
+#2 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\psy\\psysh\\src\\ConfigPaths.php(355): trigger_error('Writing to C:/U...', 1024)
+#3 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\psy\\psysh\\src\\Configuration.php(652): Psy\\ConfigPaths::touchFileWithMkdir('C:/Users/Abdull...')
+#4 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\psy\\psysh\\src\\Configuration.php(675): Psy\\Configuration->setHistoryFile('C:/Users/Abdull...')
+#5 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\psy\\psysh\\src\\Configuration.php(820): Psy\\Configuration->getHistoryFile()
+#6 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\psy\\psysh\\src\\Shell.php(92): Psy\\Configuration->getReadline()
+#7 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\tinker\\src\\Console\\TinkerCommand.php(59): Psy\\Shell->__construct(Object(Psy\\Configuration))
+#8 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Laravel\\Tinker\\Console\\TinkerCommand->handle()
+#9 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#10 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#11 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#12 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#13 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call(Array)
+#14 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#15 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#16 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Laravel\\Tinker\\Console\\TinkerCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 D:\\Xampp\\htdocs\\saif_07_apr_2026\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 {main}
+"} 
+[2026-04-09 13:15:33] local.ERROR: SQLSTATE[HY000] [1045] Access denied for user 'newproject'@'localhost' (using password: YES) (Connection: mysql, SQL: select table_name as `name`, (data_length + index_length) as `size`, table_comment as `comment`, engine as `engine`, table_collation as `collation` from information_schema.tables where table_schema = 'newproject' and table_type in ('BASE TABLE', 'SYSTEM VERSIONED') order by table_name) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 1045): SQLSTATE[HY000] [1045] Access denied for user 'newproject'@'localhost' (using password: YES) (Connection: mysql, SQL: select table_name as `name`, (data_length + index_length) as `size`, table_comment as `comment`, engine as `engine`, table_collation as `collation` from information_schema.tables where table_schema = 'newproject' and table_type in ('BASE TABLE', 'SYSTEM VERSIONED') order by table_name) at D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:829)
+[stacktrace]
+#0 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback('select table_na...', Array, Object(Closure))
+#1 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(414): Illuminate\\Database\\Connection->run('select table_na...', Array, Object(Closure))
+#2 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(401): Illuminate\\Database\\Connection->select('select table_na...', Array, false)
+#3 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\MySqlBuilder.php(41): Illuminate\\Database\\Connection->selectFromWriteConnection('select table_na...')
+#4 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(165): Illuminate\\Database\\Schema\\MySqlBuilder->getTables(false)
+#5 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\DatabaseMigrationRepository.php(184): Illuminate\\Database\\Schema\\Builder->hasTable('migrations')
+#6 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(700): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#7 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\StatusCommand.php(53): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#8 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\StatusCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#9 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\StatusCommand.php(52): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#10 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\StatusCommand->handle()
+#11 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#12 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#13 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#14 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#15 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call(Array)
+#16 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#17 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#18 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\StatusCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 D:\\Xampp\\htdocs\\saif_07_apr_2026\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 {main}
+
+[previous exception] [object] (PDOException(code: 1045): SQLSTATE[HY000] [1045] Access denied for user 'newproject'@'localhost' (using password: YES) at D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php:65)
+[stacktrace]
+#0 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php(65): PDO->__construct('mysql:host=loca...', 'newproject', Object(SensitiveParameterValue), Array)
+#1 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php(44): Illuminate\\Database\\Connectors\\Connector->createPdoConnection('mysql:host=loca...', 'newproject', 'R5uKI>K2k', Array)
+#2 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#5 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(1339): call_user_func(Object(Closure))
+#6 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(528): Illuminate\\Database\\Connection->getPdo()
+#7 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(423): Illuminate\\Database\\Connection->getPdoForSelect(false)
+#8 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(816): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select table_na...', Array)
+#9 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback('select table_na...', Array, Object(Closure))
+#10 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(414): Illuminate\\Database\\Connection->run('select table_na...', Array, Object(Closure))
+#11 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(401): Illuminate\\Database\\Connection->select('select table_na...', Array, false)
+#12 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\MySqlBuilder.php(41): Illuminate\\Database\\Connection->selectFromWriteConnection('select table_na...')
+#13 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(165): Illuminate\\Database\\Schema\\MySqlBuilder->getTables(false)
+#14 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\DatabaseMigrationRepository.php(184): Illuminate\\Database\\Schema\\Builder->hasTable('migrations')
+#15 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(700): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#16 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\StatusCommand.php(53): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#17 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\StatusCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\StatusCommand.php(52): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\StatusCommand->handle()
+#20 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#22 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#23 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#24 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call(Array)
+#25 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\StatusCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 D:\\Xampp\\htdocs\\saif_07_apr_2026\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 D:\\Xampp\\htdocs\\saif_07_apr_2026\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 {main}
+"} 
+[2026-04-09 13:17:16] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:17:16] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:29:14] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:29:14] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:29:21] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:29:21] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:29:31] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:29:31] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:29:40] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:29:40] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:31:59] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:32:06] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:32:06] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:32:33] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:32:33] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:32:33] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:32:42] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:32:42] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:32:49] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:32:49] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:33:02] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:33:02] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:36:44] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:36:44] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:39:16] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 13:39:16] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:09:31] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:09:31] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:09:37] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:09:37] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:11:57] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:11:57] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:11:59] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:11:59] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:12:20] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:12:20] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:13:38] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:13:42] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:13:42] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:15:24] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:15:24] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:15:31] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:15:31] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:15:38] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:15:38] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:15:42] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:15:42] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:16:05] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:16:05] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:17:01] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:17:01] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:24:16] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:24:16] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:24:19] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-09 14:24:19] local.WARNING: Expected $image to be a string, got: {"image":null} 
