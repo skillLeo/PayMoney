@@ -5,3 +5,40 @@
 [2026-04-14 13:49:44] local.WARNING: Expected $image to be a string, got: {"image":null} 
 [2026-04-14 13:49:44] local.WARNING: Expected $image to be a string, got: {"image":null} 
 [2026-04-14 13:49:44] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-14 14:54:53] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-14 14:54:53] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-14 14:54:54] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-14 14:54:54] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-14 14:54:55] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-14 14:54:55] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-14 14:54:55] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-14 14:54:57] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-14 14:54:57] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-14 14:55:03] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-14 14:55:03] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-14 14:55:06] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-14 14:55:06] local.WARNING: Expected $image to be a string, got: {"image":null} 
+[2026-04-14 14:57:31] local.INFO: VisaNet Connect Issuing — new card request {"msg_id":"FFE75FFF90F8281861DC9A92","payload":{"RequestHeader":{"MessageIdentification":"FFE75FFF90F8281861DC9A92","CreationDateTime":"2026-04-14T14:57:31","EnvironmentDetails":{"AcquirerBIN":"408999","AcquirerCountryCode":"840"}},"NewCardDetails":{"CardholderName":"TEST CARDHOLDER","ExpiryDate":"2812","CardType":"VIRTUAL","BillingAddress":{"AddressLine1":"123 Main Street","City":"San Mateo","State":"CA","PostalCode":"94404","Country":"USA"},"CardholderEmail":"test@paymoney.com.pl"}}} 
+[2026-04-14 14:57:33] local.ERROR: VisaService API error {"endpoint":"/visanet-connect-issuing/v1/cardservices/newcard","http_code":404,"response":{"responseStatus":{"status":404,"code":"9005","severity":"ERROR","message":"Requested route not found","info":""}}} 
+[2026-04-14 14:57:33] local.INFO: VisaNet Connect Issuing — raw response {"status":"error","http_code":404,"data":{"responseStatus":{"status":404,"code":"9005","severity":"ERROR","message":"Requested route not found","info":""}}} 
+[2026-04-14 14:57:56] local.ERROR: VisaService API error {"endpoint":"/visanet-connect-issuing/v1/card","http_code":404,"response":{"responseStatus":{"status":404,"code":"9005","severity":"ERROR","message":"Requested route not found","info":""}}} 
+[2026-04-14 14:57:57] local.ERROR: VisaService API error {"endpoint":"/visanet-connect-issuing/v1/cards","http_code":404,"response":{"responseStatus":{"status":404,"code":"9005","severity":"ERROR","message":"Requested route not found","info":""}}} 
+[2026-04-14 14:57:58] local.ERROR: VisaService API error {"endpoint":"/visanet-connect-issuing/v1/newaccount","http_code":404,"response":{"responseStatus":{"status":404,"code":"9005","severity":"ERROR","message":"Requested route not found","info":""}}} 
+[2026-04-14 14:57:59] local.ERROR: VisaService API error {"endpoint":"/visanet-connect-issuing/v1/accounts","http_code":404,"response":{"responseStatus":{"status":404,"code":"9005","severity":"ERROR","message":"Requested route not found","info":""}}} 
+[2026-04-14 14:58:00] local.ERROR: VisaService API error {"endpoint":"/visanet-connect-issuing/v1/cardservices/newcard","http_code":404,"response":{"responseStatus":{"status":404,"code":"9005","severity":"ERROR","message":"Requested route not found","info":""}}} 
+[2026-04-14 14:58:01] local.ERROR: VisaService API error {"endpoint":"/visanet-connect-issuing/v1/cardholderprofilemanagement/newaccount","http_code":404,"response":{"responseStatus":{"status":404,"code":"9005","severity":"ERROR","message":"Requested route not found","info":""}}} 
+[2026-04-14 14:58:49] local.ERROR: VisaService API error {"endpoint":"/vdp/helloworld","http_code":401,"response":{"responseStatus":{"status":401,"code":"9124","severity":"ERROR","message":"Incorrect credentials supplied","info":""}}} 
+[2026-04-14 14:58:50] local.ERROR: VisaService API error {"endpoint":"/visanetconnect/v1/issuing/card","http_code":404,"response":{"responseStatus":{"status":404,"code":"9005","severity":"ERROR","message":"Requested route not found","info":""}}} 
+[2026-04-14 14:58:51] local.ERROR: VisaService API error {"endpoint":"/visanetconnect/issuing/v1/card","http_code":404,"response":{"responseStatus":{"status":404,"code":"9005","severity":"ERROR","message":"Requested route not found","info":""}}} 
+[2026-04-14 14:58:52] local.ERROR: VisaService API error {"endpoint":"/visanetconnect-issuing/v1/card","http_code":404,"response":{"responseStatus":{"status":404,"code":"9005","severity":"ERROR","message":"Requested route not found","info":""}}} 
+[2026-04-14 14:58:53] local.ERROR: VisaService API error {"endpoint":"/visa-connect-issuing/v1/card","http_code":404,"response":{"responseStatus":{"status":404,"code":"9005","severity":"ERROR","message":"Requested route not found","info":""}}} 
+[2026-04-14 14:58:54] local.ERROR: VisaService API error {"endpoint":"/vci/v1/card","http_code":404,"response":{"responseStatus":{"status":404,"code":"9005","severity":"ERROR","message":"Requested route not found","info":""}}} 
+[2026-04-14 15:00:26] local.ERROR: VisaService API error {"endpoint":"/vdp/helloworld","http_code":401,"response":{"responseStatus":{"status":401,"code":"9124","severity":"ERROR","message":"Incorrect credentials supplied","info":""}}} 
+[2026-04-14 15:00:27] local.ERROR: VisaService API error {"endpoint":"/visadirect/fundstransfer/v1/pullfundstransactions","http_code":401,"response":{"responseStatus":{"status":401,"code":"9124","severity":"ERROR","message":"Incorrect credentials supplied","info":""}}} 
+[2026-04-14 15:00:27] local.ERROR: VisaService cURL error {"endpoint":"/vts/provisioning/v2/tokens","error":"Recv failure: Connection reset by peer"} 
+[2026-04-14 15:00:28] local.ERROR: VisaService API error {"endpoint":"/visanet-connect-issuing/v1/cardservices/newcard","http_code":404,"response":{"responseStatus":{"status":404,"code":"9005","severity":"ERROR","message":"Requested route not found","info":""}}} 
+[2026-04-14 15:01:12] local.INFO: VisaService mock: generated Luhn-valid card {"card_number":"4305783530636328","exp":"01/2030","luhn_valid":true} 
+[2026-04-14 15:01:12] local.INFO: VisaService mock: generated Luhn-valid card {"card_number":"4376518838243656","exp":"09/2030","luhn_valid":true} 
+[2026-04-14 15:01:12] local.INFO: VisaService mock: generated Luhn-valid card {"card_number":"4264715050688221","exp":"10/2030","luhn_valid":true} 
+[2026-04-14 15:01:12] local.INFO: VisaService mock: generated Luhn-valid card {"card_number":"4790631826558973","exp":"05/2030","luhn_valid":true} 
+[2026-04-14 15:01:12] local.INFO: VisaService mock: generated Luhn-valid card {"card_number":"4894184046918754","exp":"01/2030","luhn_valid":true} 

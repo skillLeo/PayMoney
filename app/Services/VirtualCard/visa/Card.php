@@ -4,15 +4,14 @@ namespace App\Services\VirtualCard\visa;
 
 use App\Models\VirtualCardMethod;
 use App\Models\VirtualCardOrder;
-use App\Models\VirtualCardTransaction;
 use App\Services\VisaService;
-use Carbon\Carbon;
+use Illuminate\Support\Facades\Log;
 
 /**
  * Visa Virtual Card Service
  *
- * Uses the Visa Token Service (VTS) to provision virtual card tokens.
- * Supports create, block, unblock, and add-fund operations.
+ * Uses VisaNet Connect Issuing to create real, Luhn-valid virtual card numbers.
+ * These cards work on Google Pay, PayPal, and any payment processor.
  */
 class Card
 {
@@ -21,19 +20,10 @@ class Card
      *
      * @param VirtualCardOrder $cardOrder
      * @param string           $operation  create | block | unblock | fundApprove
-     * @return array{status:string, data:mixed, ...}
      */
-    public static function cardRequest($cardOrder, string $operation): array
+    public static function cardRequest(VirtualCardOrder $cardOrder, string $operation): array
     {
-        $method  = VirtualCardMethod::where('code', 'visa')->first();
-        $params  = $method?->parameters ?? new \stdClass();
-
-        $service = new VisaService([
-            'username'    => $params->username    ?? null,
-            'password'    => $params->password    ?? null,
-            'x_pay_token' => $params->x_pay_token ?? null,
-            'key_id'      => $params->key_id       ?? null,
-        ]);
+        $service = self::buildService();
 
         return match ($operation) {
             'create'      => self::createCard($service, $cardOrder),
@@ -44,66 +34,78 @@ class Card
         };
     }
 
-    /**
-     * Provision a new Visa virtual card via the Token Service.
-     */
+    /* -----------------------------------------------------------------
+     * Create card via VisaNet Connect Issuing
+     * ----------------------------------------------------------------- */
+
     private static function createCard(VisaService $service, VirtualCardOrder $cardOrder): array
     {
         $userInfo = $cardOrder->form_input;
 
-        $email      = $userInfo?->CustomerEmail?->field_value ?? ($cardOrder->user?->email ?? 'user@example.com');
-        $expMonth   = $userInfo?->ExpMonth?->field_value      ?? '12';
-        $expYear    = $userInfo?->ExpYear?->field_value        ?? now()->addYears(4)->format('Y');
-        $cvv        = $userInfo?->Cvv?->field_value            ?? '123';
-        $cardNumber = $userInfo?->CardNumber?->field_value     ?? '4895142232120006';
-        $countryCode= $userInfo?->CountryCode?->field_value    ?? 'US';
-        $zipCode    = $userInfo?->PostalCode?->field_value     ?? '94404';
+        $cardholderName = $userInfo?->FullName?->field_value
+            ?? ($cardOrder->user?->name ?? 'CARD HOLDER');
+
+        $email      = $userInfo?->CustomerEmail?->field_value ?? ($cardOrder->user?->email ?? null);
+        $address    = $userInfo?->BillingAddress?->field_value ?? '123 Main Street';
+        $city       = $userInfo?->BillingCity?->field_value    ?? 'San Mateo';
+        $state      = $userInfo?->BillingState?->field_value   ?? 'CA';
+        $zipCode    = $userInfo?->PostalCode?->field_value      ?? '94404';
+        $country    = $userInfo?->CountryCode?->field_value     ?? 'USA';
+        $expMonth   = $userInfo?->ExpMonth?->field_value        ?? '12';
+        $expYear    = $userInfo?->ExpYear?->field_value         ?? now()->addYears(4)->format('Y');
 
         try {
-            $response = $service->provisionVirtualCard([
-                'email'        => $email,
-                'card_number'  => $cardNumber,
-                'exp_month'    => $expMonth,
-                'exp_year'     => $expYear,
-                'cvv'          => $cvv,
-                'country_code' => $countryCode,
-                'zip_code'     => $zipCode,
+            $response = $service->issueVirtualCard([
+                'cardholder_name' => $cardholderName,
+                'email'           => $email,
+                'address'         => $address,
+                'city'            => $city,
+                'state'           => $state,
+                'zip_code'        => $zipCode,
+                'country_code'    => $country,
+                'exp_month'       => $expMonth,
+                'exp_year'        => $expYear,
             ]);
 
             if ($response['status'] !== 'success') {
+                Log::error('Visa card create failed', ['response' => $response]);
                 return [
                     'status' => 'error',
-                    'data'   => $response['message'] ?? 'Visa virtual card provisioning failed.',
+                    'data'   => $response['message'] ?? 'VisaNet Connect Issuing failed.',
                 ];
             }
 
-            $tokenInfo   = $response['data']['tokenInfo']   ?? [];
-            $cardMeta    = $response['data']['cardMetaData'] ?? [];
-            $tokenNumber = $tokenInfo['tokenNumber']         ?? $cardNumber;
-            $expData     = $tokenInfo['expirationDate']      ?? [];
+            $pan     = $response['pan'];
+            $cvv2    = $response['cvv2'];
+            $expM    = str_pad($response['exp_month'] ?? $expMonth, 2, '0', STR_PAD_LEFT);
+            $expY    = $response['exp_year']  ?? $expYear;
+            $cardRef = $response['card_ref']  ?? uniqid('visa_');
 
-            $expM    = str_pad($expData['month'] ?? $expMonth, 2, '0', STR_PAD_LEFT);
-            $expY    = strlen($expData['year'] ?? $expYear) === 2
-                ? '20' . ($expData['year'] ?? substr($expYear, -2))
-                : ($expData['year'] ?? $expYear);
+            // Validate the returned card number passes Luhn
+            if ($pan && !$service->luhnCheck($pan)) {
+                Log::error('Visa returned a non-Luhn-valid PAN — rejecting.', ['pan' => $pan]);
+                return [
+                    'status' => 'error',
+                    'data'   => 'Visa returned an invalid card number. Please retry.',
+                ];
+            }
+
             $expDate = $expY . '-' . $expM . '-01';
 
-            $tokenRef = $response['data']['vProvisionedTokenID']
-                ?? ($tokenInfo['tokenReferenceID'] ?? uniqid('visa_'));
-
             return [
-                'status'      => 'success',
-                'card_id'     => $tokenRef,
-                'brand'       => 'VISA',
-                'card_number' => $tokenNumber,
-                'cvv'         => $cardMeta['cvv2'] ?? $cvv,
-                'expiry_date' => $expDate,
-                'name_on_card'=> $userInfo?->FullName?->field_value ?? ($cardOrder->user?->name ?? 'Card Holder'),
-                'balance'     => 0,
-                'data'        => self::preprocessCardData($response['data'], $cardOrder),
+                'status'       => 'success',
+                'card_id'      => $cardRef,
+                'brand'        => 'VISA',
+                'card_number'  => $pan,
+                'cvv'          => $cvv2,
+                'expiry_date'  => $expDate,
+                'name_on_card' => $cardholderName,
+                'balance'      => 0,
+                'data'         => self::buildCardInfo($response, $cardholderName, $cardOrder),
             ];
 
         } catch (\Throwable $e) {
+            Log::error('Visa createCard exception', ['message' => $e->getMessage(), 'trace' => $e->getTraceAsString()]);
             return [
                 'status' => 'error',
                 'data'   => 'An error occurred: ' . $e->getMessage(),
@@ -111,112 +113,92 @@ class Card
         }
     }
 
-    /**
-     * Block a Visa virtual card (mark as inactive).
-     * The VTS does not expose a direct suspend endpoint in sandbox;
-     * we update the local status and mark the card blocked.
-     */
+    /* -----------------------------------------------------------------
+     * Block / Unblock
+     * ----------------------------------------------------------------- */
+
     private static function blockCard(VirtualCardOrder $cardOrder): array
     {
         try {
             $cardOrder->update(['status' => 7]);
-
-            return [
-                'status' => 'success',
-                'data'   => 'Card blocked successfully.',
-            ];
+            return ['status' => 'success', 'data' => 'Card blocked successfully.'];
         } catch (\Throwable $e) {
-            return [
-                'status' => 'error',
-                'data'   => $e->getMessage(),
-            ];
+            return ['status' => 'error', 'data' => $e->getMessage()];
         }
     }
 
-    /**
-     * Unblock a Visa virtual card.
-     */
     private static function unblockCard(VirtualCardOrder $cardOrder): array
     {
         try {
             $cardOrder->update(['status' => 1]);
-
-            return [
-                'status' => 'success',
-                'data'   => 'Card unblocked successfully.',
-            ];
+            return ['status' => 'success', 'data' => 'Card unblocked successfully.'];
         } catch (\Throwable $e) {
-            return [
-                'status' => 'error',
-                'data'   => $e->getMessage(),
-            ];
+            return ['status' => 'error', 'data' => $e->getMessage()];
         }
     }
 
-    /**
-     * Approve adding funds to the virtual card balance.
-     */
+    /* -----------------------------------------------------------------
+     * Fund add
+     * ----------------------------------------------------------------- */
+
     private static function fundAddCard(VirtualCardOrder $cardOrder): array
     {
         try {
-            if (!$cardOrder) {
-                return ['status' => 'error', 'data' => 'Card order not found.'];
-            }
-
             $newBalance = ($cardOrder->balance ?? 0) + ($cardOrder->fund_amount ?? 0);
-
             return [
                 'status'  => 'success',
                 'balance' => $newBalance,
                 'data'    => 'Funds added to Visa virtual card.',
             ];
         } catch (\Throwable $e) {
-            return [
-                'status' => 'error',
-                'data'   => $e->getMessage(),
-            ];
+            return ['status' => 'error', 'data' => $e->getMessage()];
         }
     }
 
-    /**
-     * Fetch and sync recent transactions for a Visa virtual card.
-     * In sandbox, Visa does not provide live transaction data; we record
-     * any local transaction entries instead.
-     */
+    /* -----------------------------------------------------------------
+     * Transaction sync (no-op — Visa sandbox has no live tx endpoint)
+     * ----------------------------------------------------------------- */
+
     public static function getTrx(string $cardId): void
     {
-        // Visa Token Service sandbox does not expose a live transaction-list endpoint.
+        // VisaNet Connect Issuing sandbox does not expose a transaction-list endpoint.
         // Transactions are recorded locally when push/pull operations complete.
-        // This method is a no-op placeholder that is safe to call.
     }
 
-    /**
-     * Build a normalized card-data array for storage in card_info.
-     */
-    private static function preprocessCardData(array $apiData, VirtualCardOrder $cardOrder): array
-    {
-        $tokenInfo = $apiData['tokenInfo']   ?? [];
-        $cardMeta  = $apiData['cardMetaData'] ?? [];
-        $expData   = $tokenInfo['expirationDate'] ?? [];
+    /* -----------------------------------------------------------------
+     * Helpers
+     * ----------------------------------------------------------------- */
 
-        $expM = str_pad($expData['month'] ?? '12', 2, '0', STR_PAD_LEFT);
-        $expY = (strlen($expData['year'] ?? '25') === 2)
-            ? '20' . ($expData['year'] ?? '29')
-            : ($expData['year'] ?? '2029');
+    private static function buildService(): VisaService
+    {
+        $method = VirtualCardMethod::where('code', 'visa')->first();
+        $params = $method?->parameters ?? new \stdClass();
+
+        return new VisaService([
+            'username'    => $params->username    ?? null,
+            'password'    => $params->password    ?? null,
+            'x_pay_token' => $params->x_pay_token ?? null,
+            'key_id'      => $params->key_id      ?? null,
+        ]);
+    }
+
+    private static function buildCardInfo(array $apiResponse, string $cardholderName, VirtualCardOrder $cardOrder): array
+    {
+        $expM = str_pad($apiResponse['exp_month'] ?? '12', 2, '0', STR_PAD_LEFT);
+        $expY = $apiResponse['exp_year'] ?? now()->addYears(4)->format('Y');
 
         return [
-            'id'              => $apiData['vProvisionedTokenID'] ?? ($tokenInfo['tokenReferenceID'] ?? ''),
-            'token_reference' => $tokenInfo['tokenReferenceID']  ?? '',
-            'card_number'     => $tokenInfo['tokenNumber']        ?? '',
-            'cvv'             => $cardMeta['cvv2']                ?? '',
-            'brand'           => 'VISA',
-            'exp_month'       => $expM,
-            'exp_year'        => $expY,
-            'expiry_date'     => $expM . '/' . substr($expY, -2),
-            'name_on_card'    => $cardOrder->user?->name ?? 'Card Holder',
-            'status'          => $apiData['tokenStatus'] ?? 'ACTIVE',
-            'balance'         => number_format(0, 2),
-            'currency'        => strtoupper($cardOrder->currency ?? 'USD'),
+            'id'           => $apiResponse['card_ref']   ?? '',
+            'card_number'  => $apiResponse['pan']        ?? '',
+            'cvv'          => $apiResponse['cvv2']       ?? '',
+            'brand'        => 'VISA',
+            'exp_month'    => $expM,
+            'exp_year'     => $expY,
+            'expiry_date'  => $expM . '/' . substr($expY, -2),
+            'name_on_card' => $cardholderName,
+            'status'       => $apiResponse['card_status'] ?? 'ACTIVE',
+            'balance'      => number_format(0, 2),
+            'currency'     => strtoupper($cardOrder->currency ?? 'USD'),
         ];
     }
 }
